@@ -10,6 +10,6 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=meypanhawath&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
-![](https://komarev.com/ghpvc/?username=meypanhawath&color=blue&style=for-the-badge)
+![](https://komarev.com/ghpvc/?username=meypanhawath&color=blue&style=for-the-badge&base=1000&abbreviated=true)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
