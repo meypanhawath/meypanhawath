@@ -1,12 +1,60 @@
 
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/definitelynotraz) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:panhawath18@gmail.com) 
+<!-- Theme-Sensitive Header Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readmefile/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="readmefile/light.svg">
+  <img alt="Mey Panhawath Hero Banner" src="readmefile/dark.svg" width="100%">
+</picture>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-# 📊 GitHub Stats:
-![](https://profile-summary-for-github.com/user/meypanhawath)
+<br/>
+
+
+
+
+---
+
+## 📈 GitHub Stats & Metrics
+
+<!-- Sleek contribution activity graph with theme sensitivity -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=meypanhawath&bg_color=030712&color=94A3B8&line=10B981&point=34D399&area_color=0D9488&area=true&hide_border=true&radius=12">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=meypanhawath&bg_color=FFFFFF&color=475569&line=0D9488&point=10B981&area_color=E6FFFA&area=true&hide_border=true&radius=12">
+    <img alt="Mey's Contribution Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=meypanhawath&bg_color=030712&color=94A3B8&line=10B981&point=34D399&area_color=0D9488&area=true&hide_border=true&radius=12" width="100%" />
+  </picture>
+</p>
+
+<!-- Stats Cards Layout -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="left">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/langs?username=meypanhawath&layout=grid&bg=030712&title_color=10B981&text=94A3B8&icon_color=34D399&border_color=0D9488">
+        <source media="(prefers-color-scheme: light)" srcset="https://ghstats.dev/api/langs?username=meypanhawath&layout=grid&bg=FFFFFF&title_color=0D9488&text=475569&icon_color=10B981&border_color=E2E8F0">
+        <img alt="Top Languages" src="https://ghstats.dev/api/langs?username=meypanhawath&layout=grid&bg=030712&title_color=10B981&text=94A3B8&icon_color=34D399&border_color=0D9488" width="88%" />
+      </picture>
+    </td>
+    <td width="50%" align="right">
+      <a href="https://github.com/meypanhawath" target="_blank">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=meypanhawath&theme=dark&background=030712&stroke=0D9488&ring=10B981&fire=34D399&currStreakNum=10B981&currStreakLabel=94A3B8&sideNums=94A3B8&sideLabels=94A3B8&dates=6B7280">
+          <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=meypanhawath&theme=light&background=FFFFFF&stroke=E2E8F0&ring=0D9488&fire=10B981&currStreakNum=0D9488&currStreakLabel=475569&sideNums=475569&sideLabels=475569&dates=94A3B8">
+          <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=meypanhawath&theme=dark&background=030712&stroke=0D9488&ring=10B981&fire=34D399&currStreakNum=10B981&currStreakLabel=94A3B8&sideNums=94A3B8&sideLabels=94A3B8&dates=6B7280" width="88%" />
+        </picture>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://ghstats.dev/api/card?username=meypanhawath&bg=030712&title_color=10B981&text=94A3B8&icon_color=34D399&border_color=0D9488">
+        <source media="(prefers-color-scheme: light)" srcset="https://ghstats.dev/api/card?username=meypanhawath&bg=FFFFFF&title_color=0D9488&text=475569&icon_color=10B981&border_color=E2E8F0">
+        <img alt="Mey's GitHub Stats" src="https://ghstats.dev/api/card?username=meypanhawath&bg=030712&title_color=10B981&text=94A3B8&icon_color=34D399&border_color=0D9488" width="62%" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ---
 ![](https://komarev.com/ghpvc/?username=meypanhawath&color=00599c&style=for-the-badge&base=2300&abbreviated=true)
