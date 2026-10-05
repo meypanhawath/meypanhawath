@@ -148,7 +148,7 @@
     </clipPath>
     <clipPath id="clipPhrase2">
       <rect x="522" y="180" height="30" width="0">
-        <animate attributeName="width" values="0; 0; 150; 150; 0; 0" keyTimes="0; 0.2; 0.2667; 0.3667; 0.3867; 1" dur="15s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0; 0; 127; 127; 0; 0" keyTimes="0; 0.2; 0.2667; 0.3667; 0.3867; 1" dur="15s" repeatCount="indefinite" />
       </rect>
     </clipPath>
     <clipPath id="clipPhrase3">
@@ -163,7 +163,7 @@
     </clipPath>
     <clipPath id="clipPhrase5">
       <rect x="522" y="180" height="30" width="0">
-        <animate attributeName="width" values="0; 0; 150; 150; 0; 0" keyTimes="0; 0.8; 0.8667; 0.9667; 0.9867; 1" dur="15s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0; 0; 127; 127; 0; 0" keyTimes="0; 0.8; 0.8667; 0.9667; 0.9867; 1" dur="15s" repeatCount="indefinite" />
       </rect>
     </clipPath>
   </defs>
@@ -358,8 +358,8 @@
         <text x="522" y="200" fill="#059669" clip-path="url(#clipPhrase1)" xml:space="preserve">Fullstack Developer&#160;
           <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.1867;0.2;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <!-- 2. AI Enthusiast -->
-        <text x="522" y="200" fill="#0F766E" clip-path="url(#clipPhrase2)" opacity="0" xml:space="preserve">AI Enthusiast&#160;&#160;
+        <!-- 2. AI Engineer -->
+        <text x="522" y="200" fill="#0F766E" clip-path="url(#clipPhrase2)" opacity="0" xml:space="preserve">AI Engineer&#160;&#160;&#160;&#160;
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2001;0.3867;0.4;1" dur="15s" repeatCount="indefinite" />
         </text>
         <!-- 3. Springbean -->
@@ -370,8 +370,8 @@
         <text x="522" y="200" fill="#059669" clip-path="url(#clipPhrase4)" opacity="0" xml:space="preserve">Fullstack Developer&#160;
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.6001;0.7867;0.8;1" dur="15s" repeatCount="indefinite" />
         </text>
-        <!-- 5. AI Enthusiast -->
-        <text x="522" y="200" fill="#0F766E" clip-path="url(#clipPhrase5)" opacity="0" xml:space="preserve">AI Enthusiast&#160;&#160;
+        <!-- 5. AI Engineer -->
+        <text x="522" y="200" fill="#0F766E" clip-path="url(#clipPhrase5)" opacity="0" xml:space="preserve">AI Engineer&#160;&#160;&#160;&#160;
           <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.8001;0.9867;0.99;1" dur="15s" repeatCount="indefinite" />
         </text>
       </g>
@@ -379,7 +379,7 @@
       <!-- Integrated typing cursor -->
       <g>
         <animateTransform attributeName="transform" type="translate"
-                          values="0,0; 215,0; 215,0; 0,0; 0,0; 150,0; 150,0; 0,0; 0,0; 118,0; 118,0; 0,0; 0,0; 215,0; 215,0; 0,0; 0,0; 150,0; 150,0; 0,0; 0,0"
+                          values="0,0; 215,0; 215,0; 0,0; 0,0; 127,0; 127,0; 0,0; 0,0; 118,0; 118,0; 0,0; 0,0; 215,0; 215,0; 0,0; 0,0; 127,0; 127,0; 0,0; 0,0"
                           keyTimes="0; 0.0667; 0.1667; 0.1867; 0.2; 0.2667; 0.3667; 0.3867; 0.4; 0.4667; 0.5667; 0.5867; 0.6; 0.6667; 0.7667; 0.7867; 0.8; 0.8667; 0.9667; 0.9867; 1"
                           dur="15s" repeatCount="indefinite" />
         <rect x="522" y="183" width="8" height="20" fill="url(#cursorGradient)" class="cursor-blink" />
@@ -419,124 +419,202 @@
       <svg viewBox="0 0 24 24" x="490" y="307" width="16" height="16">
         <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 17l6-5-6-5M12 19h8"/>
       </svg>
-      <text x="518" y="320" fill="#0F172A" font-size="14" class="font-sans">Interesting: <tspan fill="#0F172A" font-weight="500">Spring Microservices</tspan></text>
-    </g>
-
-    <!-- 4. Portfolio -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.95s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="2.95s" fill="freeze" />
-      <!-- Globe Icon -->
-      <svg viewBox="0 0 24 24" x="490" y="337" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-      </svg>
-      <text x="518" y="350" fill="#475569" font-size="14" class="font-sans">Portfolio: <tspan fill="#0F766E" font-weight="500" style="text-decoration: underline; cursor: pointer;">github.com/meypanhawath</tspan></text>
-    </g>
-
-    <!-- 5. Email -->
-    <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.1s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,8" to="0,0" dur="0.4s" begin="3.1s" fill="freeze" />
-      <!-- Mail Icon -->
-      <svg viewBox="0 0 24 24" x="490" y="367" width="16" height="16">
-        <path stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4l8 5 8-5"/>
-      </svg>
-      <text x="518" y="380" fill="#475569" font-size="14" class="font-sans">Email: <tspan fill="#10B981" font-weight="500" style="text-decoration: underline; cursor: pointer;">panhawath18@gmail.com</tspan></text>
+      <text x="518" y="320" fill="#0F172A" font-size="14" class="font-sans">Interesting: <tspan fill="#0F172A" font-weight="500">AI Engineering</tspan></text>
     </g>
 
     <!-- TECH STACK Badges (staggered cascade starts at 3.3s) -->
     <!-- Tech stack title -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.25s" fill="freeze" />
-      <text x="490" y="425" fill="#0F172A" font-size="14" font-weight="700" class="font-sans">Skills &amp; Technologies</text>
+      <text x="490" y="365" fill="#0F172A" font-size="14" font-weight="700" class="font-sans">Skills &amp; Technologies</text>
     </g>
 
-    <!-- Row 1 -->
-    <!-- React -->
+        <!-- Row 1 -->
+    <!-- Python -->
     <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.3s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.3s" fill="freeze" />
-      <rect x="490" y="442" width="75" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
-      <text x="527.5" y="460" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">React</text>
+      <rect x="490" y="382" width="82" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="531" y="400" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Python</text>
     </g>
-    <!-- Next.js -->
+    <!-- PyTorch -->
     <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.38s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.38s" fill="freeze" />
-      <rect x="575" y="442" width="85" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
-      <text x="617.5" y="460" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Next.js</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.36s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.36s" fill="freeze" />
+      <rect x="582" y="382" width="89" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="626.5" y="400" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">PyTorch</text>
     </g>
-    <!-- Tailwind -->
+    <!-- scikit-learn -->
     <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.46s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.46s" fill="freeze" />
-      <rect x="670" y="442" width="90" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
-      <text x="715" y="460" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Tailwind</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.42s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.42s" fill="freeze" />
+      <rect x="681" y="382" width="124" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="743" y="400" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">scikit-learn</text>
     </g>
-    <!-- Java -->
+    <!-- RAG -->
     <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.48s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.48s" fill="freeze" />
+      <rect x="815" y="382" width="65" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="847.5" y="400" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">RAG</text>
+    </g>
+    <!-- LLMs -->
+    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.54s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.54s" fill="freeze" />
-      <rect x="770" y="442" width="70" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
-      <text x="805" y="460" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Java</text>
+      <rect x="890" y="382" width="68" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="924" y="400" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">LLMs</text>
+    </g>
+    <!-- Agents -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.6s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.6s" fill="freeze" />
+      <rect x="968" y="382" width="82" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="1009" y="400" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Agents</text>
+    </g>
+    <!-- Row 2 -->
+    <!-- Machine Learning -->
+    <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.66s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.66s" fill="freeze" />
+      <rect x="490" y="418" width="152" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="566" y="436" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Machine Learning</text>
+    </g>
+    <!-- Deep Learning -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.72s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.72s" fill="freeze" />
+      <rect x="652" y="418" width="131" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="717.5" y="436" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Deep Learning</text>
+    </g>
+    <!-- FastAPI -->
+    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.78s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.78s" fill="freeze" />
+      <rect x="793" y="418" width="89" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="837.5" y="436" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">FastAPI</text>
+    </g>
+    <!-- Ollama -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.84s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.84s" fill="freeze" />
+      <rect x="892" y="418" width="82" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="933" y="436" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Ollama</text>
+    </g>
+    <!-- Evals -->
+    <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.9s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.9s" fill="freeze" />
+      <rect x="984" y="418" width="75" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="1021.5" y="436" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Evals</text>
+    </g>
+    <!-- Row 3 -->
+    <!-- Java -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.96s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.96s" fill="freeze" />
+      <rect x="490" y="454" width="68" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="524" y="472" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Java</text>
     </g>
     <!-- Spring Boot -->
     <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.62s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.62s" fill="freeze" />
-      <rect x="850" y="442" width="120" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
-      <text x="910" y="460" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Spring Boot</text>
-    </g>
-    <!-- C++ -->
-    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.7s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.7s" fill="freeze" />
-      <rect x="980" y="442" width="65" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
-      <text x="1012.5" y="460" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">C++</text>
-    </g>
-
-    <!-- Row 2 -->
-    <!-- Postgres -->
-    <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.78s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.78s" fill="freeze" />
-      <rect x="490" y="482" width="100" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
-      <text x="540" y="499" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">PostgreSQL</text>
-    </g>
-    <!-- Vercel -->
-    <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.86s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.86s" fill="freeze" />
-      <rect x="600" y="482" width="80" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
-      <text x="640" y="499" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Vercel</text>
-    </g>
-    <!-- Git -->
-    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.94s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="3.94s" fill="freeze" />
-      <rect x="690" y="482" width="65" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
-      <text x="722.5" y="499" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Git</text>
-    </g>
-    <!-- Docker -->
-    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.02s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.02s" fill="freeze" />
-      <rect x="765" y="482" width="85" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
-      <text x="807.5" y="499" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Docker</text>
+      <rect x="568" y="454" width="117" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="626.5" y="472" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Spring Boot</text>
     </g>
-    <!-- JavaScript -->
+    <!-- PostgreSQL -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.08s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.08s" fill="freeze" />
+      <rect x="695" y="454" width="110" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="750" y="472" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">PostgreSQL</text>
+    </g>
+    <!-- CI/CD -->
     <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.1s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.1s" fill="freeze" />
-      <rect x="860" y="482" width="115" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
-      <text x="917.5" y="499" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">JavaScript</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.14s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.14s" fill="freeze" />
+      <rect x="815" y="454" width="75" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="852.5" y="472" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">CI/CD</text>
+    </g>
+    <!-- GitHub Actions -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.2s" fill="freeze" />
+      <rect x="900" y="454" width="138" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="969" y="472" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">GitHub Actions</text>
+    </g>
+    <!-- Row 4 -->
+    <!-- React -->
+    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.26s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.26s" fill="freeze" />
+      <rect x="490" y="490" width="75" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="527.5" y="508" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">React</text>
+    </g>
+    <!-- Next.js -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.32s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.32s" fill="freeze" />
+      <rect x="575" y="490" width="89" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="619.5" y="508" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Next.js</text>
+    </g>
+    <!-- Tailwind -->
+    <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.38s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.38s" fill="freeze" />
+      <rect x="674" y="490" width="96" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="722" y="508" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Tailwind</text>
     </g>
     <!-- TypeScript -->
     <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.18s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.18s" fill="freeze" />
-      <rect x="985" y="482" width="115" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
-      <text x="1042.5" y="499" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">TypeScript</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.44s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.44s" fill="freeze" />
+      <rect x="780" y="490" width="110" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="835" y="508" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">TypeScript</text>
+    </g>
+    <!-- JavaScript -->
+    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.5s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.5s" fill="freeze" />
+      <rect x="900" y="490" width="110" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="955" y="508" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">JavaScript</text>
+    </g>
+    <!-- C++ -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.56s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.56s" fill="freeze" />
+      <rect x="1020" y="490" width="65" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="1052.5" y="508" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">C++</text>
+    </g>
+    <!-- Row 5 -->
+    <!-- Docker -->
+    <g class="skill-pill" style="--hover-glow: rgba(5, 150, 105, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.62s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.62s" fill="freeze" />
+      <rect x="490" y="526" width="82" height="28" rx="8" fill="rgba(5, 150, 105, 0.02)" stroke="rgba(5, 150, 105, 0.15)" stroke-width="1" />
+      <text x="531" y="544" fill="#059669" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Docker</text>
+    </g>
+    <!-- Git -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 118, 110, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.68s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.68s" fill="freeze" />
+      <rect x="582" y="526" width="65" height="28" rx="8" fill="rgba(15, 118, 110, 0.02)" stroke="rgba(15, 118, 110, 0.15)" stroke-width="1" />
+      <text x="614.5" y="544" fill="#0F766E" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Git</text>
+    </g>
+    <!-- Vercel -->
+    <g class="skill-pill" style="--hover-glow: rgba(8, 145, 178, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.74s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.74s" fill="freeze" />
+      <rect x="657" y="526" width="82" height="28" rx="8" fill="rgba(8, 145, 178, 0.02)" stroke="rgba(8, 145, 178, 0.15)" stroke-width="1" />
+      <text x="698" y="544" fill="#0891B2" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Vercel</text>
+    </g>
+    <!-- Linux -->
+    <g class="skill-pill" style="--hover-glow: rgba(15, 23, 42, 0.3);" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.8s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.3s" begin="4.8s" fill="freeze" />
+      <rect x="749" y="526" width="75" height="28" rx="8" fill="rgba(15, 23, 42, 0.02)" stroke="rgba(15, 23, 42, 0.15)" stroke-width="1" />
+      <text x="786.5" y="544" fill="#0F172A" font-size="12" font-weight="600" text-anchor="middle" class="font-sans">Linux</text>
     </g>
   </g>
 </svg>
